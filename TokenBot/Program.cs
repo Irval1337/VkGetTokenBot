@@ -23,8 +23,8 @@ namespace TokenBot
         public static Dictionary<long, List<string>> result_data = new Dictionary<long, List<string>>();
 
         public static BackgroundWorker bw;
-        public static TelegramBotClient Bot = new TelegramBotClient("1261927448:AAGcepbFktbT8EC0GraIhYjKoUHRZhRf5i4");
-        public static string token = "1261927448:AAGcepbFktbT8EC0GraIhYjKoUHRZhRf5i4";
+        public static TelegramBotClient Bot = new TelegramBotClient("");
+        public static string token = "";
         public static void Main(string[] args)
         {
             if (!Directory.Exists("Users"))
